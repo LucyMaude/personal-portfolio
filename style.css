@@ -1,0 +1,379 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: lowercase;
+}
+
+/*navbar*/
+.nav {
+    height: 10vh;
+}
+.nav a {
+    color: black;
+    margin: 1%;
+}
+.name {
+    text-align: center;
+    font-size: 5vh;    
+}
+.name a {
+    text-decoration: none;
+}
+.name a:hover {
+    color: #58c1ba;
+}
+.contact-btn {
+    border: 5px solid #4e4059;
+}
+.about-btn {
+    border: 5px solid #f16446;
+}
+.projects-btn {
+    border: 5px solid #c5a240;
+}
+.skills-btn {
+    border: 5px solid #58c1ba;
+}
+.contact-btn:hover {
+    box-shadow: inset 0 100px 0 0 #4e4059;
+    color: white;
+}
+.about-btn:hover {
+    box-shadow: inset 0 100px 0 0 #f16446;
+    color: white;
+}
+.projects-btn:hover {
+    box-shadow: inset 0 100px 0 0 #c5a240;
+    color: white;
+}
+.skills-btn:hover {
+    box-shadow: inset 0 100px 0 0 #58c1ba;
+    color: white;
+}
+
+/*button animation not in use*/
+/*
+.button_sliding_bg {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    cursor: pointer;
+	-webkit-transition: all ease 0.8s;
+	-moz-transition: all ease 0.8s;
+	transition: all ease 0.8s;
+}
+*/
+
+/*home*/
+.triangles {
+    width: 0;
+    height: 0;
+    border-top: 45vh solid #f16446;
+    border-bottom: 45vh solid #4e4059;
+    border-right: 50vw solid #58c1ba;
+    border-left: 50vw solid #c5a240;
+}
+.words {
+    font-size: 45px;
+    position: relative;
+    height: 0px;
+}
+.words a {
+    text-decoration: none;
+    color: white;
+}
+.words-about {
+    bottom: 75vh;
+    text-align: center;
+}
+.words-skills {
+    right: 15vw;
+    float: right;
+    bottom: 50vh;
+}
+.words-projects {
+    left: 10vw;
+    float: left;
+    bottom: 50vh;
+}
+.words-contact {
+    position: relative;
+    text-align: center;
+    bottom: 20vh;
+}
+.words-contact button {
+    background-color: white;
+    border: 5px solid #f16446;
+    color: black;
+}
+.small-words{
+    display: none;
+}
+
+
+/*about*/
+.background-about {
+    background-color: #f16446;
+    height: 90%;
+    width: 100vw;
+    color: white;
+    padding: 5vh 0 5vh 0;
+}
+.headshot {
+    border-radius: 50%;
+    border: 5px solid #58c1ba;
+}
+.top-p {
+    font-size: 2vh;
+    padding: 5vh 0 5vh 0;
+}
+.bottom-p {
+    font-size: 2vh;
+    padding: 5vh 0 0 0;
+}
+.about-interest a {
+    color: black;
+}
+.about-interest a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+.interest-row {
+    margin-top: 3vh;
+}
+.interest-btn {
+    margin-top: 5px;
+    margin-left: 2vw;
+    border: 5px solid #fff;
+    color: #fff;
+}
+.interest-btn:hover {
+    box-shadow: inset 0 100px 0 0 #fff;
+    color: #000;
+}
+
+/*skills*/
+.background-skills {
+    height: 90%;
+    width: 100vw;
+    color: white;
+    padding: 7vh 0 7vh 0;
+    background-color: #58c1ba;
+}
+.background-skills h1 {
+    text-align: center;
+    color: white;
+}
+.skill-icon img{
+    margin: 15px;
+}
+.skill-icon h2 {
+    padding-top: 20px;
+}
+
+/*projects*/
+.background-projects {
+    background-color: #c5a240;
+    height: 90%;
+    position: relative;
+    -webkit-animation: slide 1s linear;
+}
+.project-display {
+    margin: 5%;
+}
+.project-display a {
+    color: #f16446;
+}
+.background-projects h1 {
+    color: #4e4059;
+    text-align: center
+}
+.background-projects h4 {
+    color: #4e4059;
+    text-align: center
+}
+.background-projects p {
+    color: #4e4059;
+}
+.project-images {
+    border: 5px solid black;
+    border-radius: 25px;
+}
+.background-projects b {
+    color: black;
+}
+
+
+/*contact*/
+.background-contact {
+    background-color: #4e4059;
+    height: 90vh;
+    width: 100vw;
+    padding: 2%;
+}
+.background-contact h1{
+    color: white;
+}
+.top-contact h1{
+    text-align: center;
+}
+.awesome {
+    font-size: 30px!important;
+    color: white;
+    margin-top: 40px;
+    display: inline-block;
+}
+.awesome:hover{
+    color: black;
+    text-decoration: none;
+}
+.awesome-text {
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 75px;
+}
+.awesome-text:hover {
+    text-decoration: none;
+    color: black;
+}
+.contact-icon{
+    border-radius: 50px;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    padding: 5px;
+    border: 5px solid;
+    margin-top: 10px;
+}
+.git {
+    border-color: #c5a240;
+}
+.link {
+    border-color: #58c1ba;
+}
+.git-icon {
+    padding: 0px;
+}
+.link-icon {
+    padding: 0px;
+}
+#resume-button {
+    background-color: white;
+    border: 5px solid #f16446;
+    color: black;
+    margin-top: 30px;
+}
+#resume-button:hover {
+    background-color: #f16446;
+    color: white;
+}
+
+
+/*small-screen adjustments */
+
+@media (max-width: 1025px) {
+    /*home*/
+    .sub-intro {
+        text-align: right;
+    }
+    .triangles {
+        display: none;
+    }
+    .small-home {
+        height: 22vh;
+    }
+    .small-about {
+        background-color: #f16446;
+    }
+    .small-skills {
+        background-color: #58c1ba;
+    }
+    .small-projects {
+        background-color: #c5a240;
+    }
+    .small-contact {
+        background-color: #4e4059;
+
+    }
+    .words {
+        display: none;
+    }
+    .small-words {
+        margin-top: 5vh;
+        font-size: 5vh;
+        text-align: center;
+        display: block;
+        
+    }
+    .small-words a{
+        color: white;    
+    }
+    .small-words a:hover {
+        text-decoration: none;
+    }
+    /*navigation*/
+    .nav {
+        height: 12vh;
+    }
+    .name {
+        margin-top: 3vh;
+        width: 100vw;
+        font-size: 5vh;
+    }
+    .nav-btn {
+        display: none;
+    }
+    /*about*/
+    .background-about {
+        height: 90%;
+    }
+    .top-p {
+        text-align: center;
+        padding-bottom: 0;
+    }
+    .bottom-p {
+        font-size: 2vh;
+        text-align: center;
+    }
+    .interest-btn {
+        font-size: 2vh;
+        margin-left: 5px;
+    }
+    /*contact*/
+    .background-contact{
+        height: 50vh;
+    }
+    .top-contact h1 {
+        font-size: 4vh;
+    }
+    .awesome {
+        font-size: 3vh!important;
+    }
+    .awesome-text {
+        font-size: 2vh!important;
+    }
+    /*projects*/
+    .background-projects p{
+        font-size: 1.5vh;
+        margin: 10px;
+    }
+    .background-projects h1{
+        font-size: 3vh;
+    }
+    .background-projects h4{
+        font-size: 1.5vh;
+    }
+    .background-projects h2{
+        font-size: 2.5vh;
+    }
+}
+
+/*Colors:*/
+/*{
+orange: #f16446
+green: #58c1ba
+purple:#4e4059
+gold: #c5a240
+gray-green:#b4c1a5
+black: #2f2d2e
+}*/
